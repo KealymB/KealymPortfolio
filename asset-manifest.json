@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/KealymPortfolio/static/css/main.1bbf094a.chunk.css",
+    "main.js": "/KealymPortfolio/static/js/main.3f284e0b.chunk.js",
+    "main.js.map": "/KealymPortfolio/static/js/main.3f284e0b.chunk.js.map",
+    "runtime-main.js": "/KealymPortfolio/static/js/runtime-main.b466e260.js",
+    "runtime-main.js.map": "/KealymPortfolio/static/js/runtime-main.b466e260.js.map",
+    "static/js/2.9555e9d2.chunk.js": "/KealymPortfolio/static/js/2.9555e9d2.chunk.js",
+    "static/js/2.9555e9d2.chunk.js.map": "/KealymPortfolio/static/js/2.9555e9d2.chunk.js.map",
+    "static/js/3.1084f097.chunk.js": "/KealymPortfolio/static/js/3.1084f097.chunk.js",
+    "static/js/3.1084f097.chunk.js.map": "/KealymPortfolio/static/js/3.1084f097.chunk.js.map",
+    "index.html": "/KealymPortfolio/index.html",
+    "static/css/main.1bbf094a.chunk.css.map": "/KealymPortfolio/static/css/main.1bbf094a.chunk.css.map",
+    "static/js/2.9555e9d2.chunk.js.LICENSE.txt": "/KealymPortfolio/static/js/2.9555e9d2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b466e260.js",
+    "static/js/2.9555e9d2.chunk.js",
+    "static/css/main.1bbf094a.chunk.css",
+    "static/js/main.3f284e0b.chunk.js"
+  ]
+}
