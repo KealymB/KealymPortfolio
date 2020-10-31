@@ -1,23 +1,19 @@
-.App-header {
+.Wrapper {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(20px + 2vmin);
-  color: white;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20px;
 }
 
-.My-Name {
+.Header {
   color: red;
-  display: inline-block;
 }
 
-.Lead {
-  display: inline-block;
-}
-
-.btn-Text {
-  display: inline-block;
+.Bio {
+  color: white;
+  font-size: calc(15px + 2vmin);
 }

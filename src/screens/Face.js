@@ -5,8 +5,6 @@ import ButtonBase from "@material-ui/core/ButtonBase";
 import Typography from "@material-ui/core/Typography";
 import { Link } from "react-scroll";
 
-//;
-
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
@@ -72,7 +70,8 @@ function Face(props) {
           {props.start}
           <div className="My-Name">{props.name}</div>.
         </div>
-        {props.end}
+        <div className="Do">{props.end}</div>
+
         <Link to="work" smooth={true} duration={250}>
           <ButtonBase
             focusRipple
