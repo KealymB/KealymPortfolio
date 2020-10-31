@@ -3,6 +3,9 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import Typography from "@material-ui/core/Typography";
+import { Link } from "react-scroll";
+
+//;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -39,7 +42,6 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    color: theme.palette.common.white,
   },
   imageBackdrop: {
     position: "absolute",
@@ -47,7 +49,6 @@ const useStyles = makeStyles((theme) => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.palette.common.black,
     opacity: 0.4,
     transition: theme.transitions.create("opacity"),
   },
@@ -72,13 +73,13 @@ function Face(props) {
           <div className="My-Name">{props.name}</div>.
         </div>
         {props.end}
-        <div>
+        <Link to="work" smooth={true} duration={250}>
           <ButtonBase
             focusRipple
             className={classes.image}
             focusVisibleClassName={classes.focusVisible}
             style={{
-              width: 245,
+              width: 250,
               height: 80,
             }}
           >
@@ -88,11 +89,11 @@ function Face(props) {
                 variant="subtitle1"
                 className={classes.imageTitle}
               >
-                View My Work
+                <div>View My Work</div>
               </Typography>
             </span>
           </ButtonBase>
-        </div>
+        </Link>
       </header>
     </div>
   );
