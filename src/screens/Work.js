@@ -6,8 +6,6 @@ import ReactPlayer from "react-player/file";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 
-import AwsSliderStyles from "./sliderstyle.scss";
-
 import promo from "../videos/cropped.mp4";
 
 import mock1 from "../images/Bridge-1.jpg";
@@ -38,7 +36,7 @@ function Work(props) {
         flexWrap="wrap"
       >
         <Box width={300} margin={5}>
-          <AwesomeSlider cssModule={AwsSliderStyles}>
+          <AwesomeSlider className="slider">
             <div>
               <img src={mock1} width={w} alt="ms1" />
             </div>
@@ -64,8 +62,8 @@ function Work(props) {
             url={promo}
             playing={true}
             loop={true}
-            width={200}
-            height={450}
+            width={280}
+            height={430}
             volume={0}
             muted={true}
           />
