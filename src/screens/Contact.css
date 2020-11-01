@@ -16,3 +16,44 @@
   color: white;
   font-size: calc(15px + 2vmin);
 }
+
+.Link {
+  color: red;
+  font-size: calc(10px + 2vmin);
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.Link:hover {
+  color: red;
+  font-size: calc(10px + 2vmin);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.LC {
+  margin-top: 40px;
+}
+.LCsub {
+  margin-top: 10px;
+}
+.LCsub2 {
+  margin-top: 8px;
+}
+
+.Number {
+  color: red;
+  font-size: calc(10px + 2vmin);
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+.Number:hover {
+  color: red;
+  font-size: calc(10px + 2vmin);
+  text-decoration: none;
+  margin-left: 20px;
+}
