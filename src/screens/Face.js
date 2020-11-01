@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     height: 60,
     marginTop: 50,
-    color: "black",
+    color: "white",
     "&:hover, &$focusVisible": {
       zIndex: 1,
       "& $imageBackdrop": {
